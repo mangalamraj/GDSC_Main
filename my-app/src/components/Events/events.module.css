@@ -1,0 +1,34 @@
+.eventsParents{
+    background-image: url(https://dscakgec.org/static/media/background23.24ccf041707271e5fae7.png);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    text-align: center;
+    transition: .2s;
+    background-size: cover;
+    font-family: Google Sans,Noto Sans,Roboto,sans-serif;
+    margin-top: 1rem;
+}   
+.events{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   align-items: center;
+    margin-top: 2rem;
+    transition: .2s;
+
+}
+.mango{
+    width: 80%;
+}
+.head{
+    color: #202124;
+    font-family: Google Sans,sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    transition: .2s;
+}
