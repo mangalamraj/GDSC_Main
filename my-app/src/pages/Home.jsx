@@ -6,10 +6,15 @@ import Footer from "../components/footer/Footer";
 import WhatWeDo from "../components/Whatwedo/WhatWeDo";
 import Hello from "../components/hello/Hello";
 import Banner from "../components/Banner/Banner";
+import NewNav from "../components/newNav/NewNav";
+import Carousel from "../components/carousel/Carousel";
+
 
 const Home = () =>{
     return(
         <div>
+        <NewNav/>
+    <Carousel/>
             <Events/>
             <Crew/>
             

@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedinIn, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -40,7 +40,7 @@ Let's Build Something Great Together
  <div className="contact_box" >
 
 <div className="contact_menu">
-  <div className= "icons">
+  {/* <div className= "icons">
     <a href="/contact"><FontAwesomeIcon icon={faFacebookF}/></a>
     </div>
   <div className= "icons">
@@ -52,7 +52,7 @@ Let's Build Something Great Together
   <div className= "icons">
     <a href="/contact"><FontAwesomeIcon icon={faGooglePlusG}/></a>
   </div>
- 
+  */}
 </div>
 </div>
 
