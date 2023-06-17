@@ -8,6 +8,17 @@ const Banner = () =>{
              <div className={styles.bannersubhead}>
                 presenting to you the different field we guide into: WenDev, AppDev, ML,Design etc..
              </div>
+             <div className={styles.floaters}>
+                <div className={styles.leftf}>
+                <img src="images/blue.svg" className={styles.redball}></img>
+                <img src="images/red.svg" className={styles.redball}></img>
+                </div>
+                <div className={styles.rightf}>
+                <img src="images/Vector.svg" className={styles.Vectorball}></img>
+                <img src="images/green.svg" className={styles.greenball}></img>
+                </div>
+               
+             </div>
         </div>
     )
 }
