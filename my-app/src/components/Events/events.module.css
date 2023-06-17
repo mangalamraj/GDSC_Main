@@ -32,3 +32,14 @@
     font-weight: 400;
     transition: .2s;
 }
+@media (max-width:800px) {
+    .events{
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+
+    }
+    .eventsParents{
+        background-image: none;
+    }
+}

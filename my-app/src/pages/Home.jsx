@@ -15,6 +15,7 @@ const Home = () =>{
         <div>
         <NewNav/>
     <Carousel/>
+    <WhatWeDo/>
             <Events/>
             <Crew/>
             

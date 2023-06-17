@@ -1,72 +1,86 @@
 import "./WhatweDo.css"
 const WhatWeDo = () => {
   return (
-    <div>
-      <div className="container">
-        <div className="row pt-4 pb-4 text-center">
-          <div className="col-lg-4 col-sm-12">
-            <h4 className="title" style={{color:"#333333"}}>
-              What we do?
-            </h4>
-            <p className="description" style={{color:"#333333"}}>
-              A Google Developer Student Club is a Google recognised student
-              body at a college which directly reports to Google for their
-              activities.
-              <br />
-              <br />A GDSC conducts workshops, seminars and other fun activities
-              which help the students connect with Google.
-            </p>
-            <br />
-          </div>
-          <div className="col-lg-8 col-sm-12">
-            <div
-              className="row text-center"
-              style={{display:"flex",flexdirection:"row"}}
-            >
-              <div className="col-lg-3 col-sm-6 col-6">
-                <i className="fa fa-users   description" style={{fontSize:"40px"}}></i>
-                <br />
-                <br />
-                <h5 className="title">Talks</h5>
-                <p className="description">
-                  Get updated with the latest news and announcements
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-6">
-                <i className="fa fa-code description" style={{fontSize:"40px"}}></i>
-                <br />
-                <br />
-                <h5 className="title">Codelabs</h5>
-                <p className="description">
-                  Get hands-on experience and guidance from the community
-                  members
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-6">
-                <i
-                  className="fa fa-graduation-cap description"
-                  style={{fontSize:"40px"}}
-                ></i>
-                <br />
-                <br />
-                <h5 className="title">Projects</h5>
-                <p className="description">
-                  We make projects that help individuals to learn more.
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-6">
-                <i className="fa fa-coffee description" style={{fontSize:"40px"}}></i>
-                <br />
-                <br />
-                <h5 className="title">Meetups</h5>
-                <p className="description">
-                  We love to discuss on open innovations to create something big
-                </p>
-              </div>
+    <div className="yo2">
+<div className="row mt-5 wow fadeIn yo" data-wow-delay="0.2s" style={{textAlign:"left"}}>
+              
+                <div className="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                 
+                    <h4 className="title" id="tracks">What GDSC IIITN does?</h4>
+                    <p>&nbsp;</p>
+                    <p>
+                        </p><h5 className="description">Google Developer Student Club IIITN is inspired by the Google
+                            Developers' Family.</h5>
+                    <p></p>
+                    <p>
+                        </p><h5 className="description">The motive is to create a local ecosystem of Developers in and around
+                            the Campus. And having fun doing it.</h5>
+                    <p></p>
+
+                    <p>&nbsp;</p>
+
+
+
+
+                </div>
+              
+                <div className="col-lg-6">
+                    
+                    <p>&nbsp;</p>
+                    <div className="hello">
+                    <div style={{display:"flex"}}>
+                        <div className="col-lg-5 " id="p1">
+                          <div>
+                          <p>
+                                </p><h4 className="description" style={{fontWeight:"600", color:"rgb(228, 180, 25)", padding:"8px 4px", backgroundColor:"rgba(247, 212, 17, 0.15)", borderRadius:"8px", width:"100px", paddingLeft:"11px"}}>
+                                    Seminars</h4>
+                            <p></p>
+                          </div>
+                           <div>
+                           <p>
+                                </p><h5 className="description">Get updated with the latest news and announcements.</h5>
+                            <p></p>
+                           </div>
+                            
+                        </div>
+                        <div className="col-lg-5 " id="p4">
+                            <p>
+                                </p><h4 className="description" style={{fontWeight:"600",  color:"rgb(12, 80, 182)", padding:"8px 4px", backgroundColor:"rgba(12, 80, 182,0.15)",borderRadius:"8px", width:"120px", paddingLeft:"11px"}}>
+                                    Study Jams</h4>
+                            <p></p>
+                            <p>
+                                </p><h5 className="description">Hands-on experience with the community members.</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div style={{display:"flex"}}>
+                        <div className="col-lg-5" id="p1">
+                            <p>
+                                </p><h4 className="description" style={{fontWeight:600, color:"rgb(223, 77, 19)", padding:"8px 4px", backgroundColor:"rgba(223, 77, 19,0.15)", borderRadius:"8px", width:"90px", paddingLeft:"11px"}}>
+                                    Projects</h4>
+                            <p></p>
+                            <p>
+                                </p><h5 className="description">Projects with a social impact that help a lot of people.</h5>
+                            <p></p>
+                        </div>
+                        <div className="col-lg-5 " id="p4">
+                            <p>
+                                </p><h4 className="description" style={{fontWeight:600, color:"rgb(11, 184, 83)", padding:"8px 4px", backgroundColor:"rgba(11, 184, 83,0.15)", bordeRadius:"8px", width:"120px", paddingLeft:"11px"}}>
+                                    Hackathons</h4>
+                            <p></p>
+                            <p>
+                                </p><h5 className="description">Dream. Explore. Wonder. Build it Together.</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                 
+                </div>
+              
+                <p>&nbsp;</p>
+
             </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

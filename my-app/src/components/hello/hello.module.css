@@ -7,6 +7,12 @@
     z-index: 99;
    
 }
+@media (max-width:800px) {
+  .contact_sec{
+      margin-top: 0px;
+  }
+  
+}
 .hed2{
     opacity: 1;
 }

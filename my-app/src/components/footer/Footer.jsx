@@ -16,7 +16,7 @@ Let's Build Something Great Together
  </div>
  <div className="mid_section">
  <div className="sub_head">
-    IIIT Nagpur
+    
     </div>
     <div className="details">
     <div className="sub_details">
