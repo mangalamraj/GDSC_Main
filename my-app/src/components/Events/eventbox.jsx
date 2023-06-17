@@ -14,17 +14,11 @@ const Eventbox = (props) => {
           <a href="" target="_blank" rel="noopener noreferrer">
             <h3 className={styles.Card_cardHeader__w3dhQ}>{props.heading}</h3>
           </a>
+          <br></br>
           <p>
             {props.para}
           </p>
-          <a
-            href=""
-            className={styles.Card_btn__PTjlA}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read
-          </a>
+
         </div>
       </div>
     </div>

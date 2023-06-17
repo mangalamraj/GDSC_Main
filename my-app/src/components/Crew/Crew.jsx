@@ -2,7 +2,7 @@ import styles from "./Crew.module.scss";
 
 const Crew = () => {
   return (
-    <div >
+    <div  className={styles.CrewKabaap}>
 
     <div className={styles.body}>
       <header>
@@ -20,44 +20,44 @@ const Crew = () => {
 
       <main>
         <div className={styles.profile}>
-          <figure data-value="product owner">
-            <img src="https://rvs-team-page.onrender.com/photo1.png" alt="" />
-            <figcaption>bill mahoney</figcaption>
+          <figure data-value="GDSC Lead">
+            <img src="images/srishti.jpeg" alt="" />
+            <figcaption style={{marginBottom:"50px"}}>Srishti Pandey</figcaption>
           </figure>
         </div>
 
         <div className={styles.profile}>
-          <figure data-value="art director">
-            <img src="https://rvs-team-page.onrender.com/photo2.png" alt="" />
-            <figcaption>saba cabrera</figcaption>
+          <figure data-value="Web Dev Lead">
+            <img src="images/Deep.jpg" alt="" />
+            <figcaption>Deep Panchani</figcaption>
           </figure>
         </div>
 
         <div className={styles.profile}>
-          <figure data-value="tech lead">
-            <img src="https://rvs-team-page.onrender.com/photo3.png" alt="" />
-            <figcaption>shae le</figcaption>
+          <figure data-value="Design Lead">
+            <img src="images/ritu.jpg" alt=""  height="350px" />
+            <figcaption style={{marginBottom:"50px"}}>Ritu Bhangale</figcaption>
           </figure>
         </div>
 
         <div className={styles.profile}>
-          <figure data-value="ux designer">
-            <img src="https://rvs-team-page.onrender.com/photo4.png" alt="" />
-            <figcaption>skylah lu</figcaption>
+          <figure data-value="APP Dev Lead">
+            <img src="images/ml.jpg"  alt="" height="350px"/>
+            <figcaption>Raj Aryan</figcaption>
           </figure>
         </div>
 
         <div className={styles.profile}>
-          <figure data-value="developer">
-            <img src="https://rvs-team-page.onrender.com/photo5.png" alt="" />
-            <figcaption>griff richards</figcaption>
+          <figure data-value="Management Lead">
+            <img src="images/ambuj.jpeg" alt="" height="350px"/>
+            <figcaption>AMBUJ RAJ</figcaption>
           </figure>
         </div>
 
         <div className={styles.profile}>
-          <figure data-value="developer">
-            <img src="https://rvs-team-page.onrender.com/photo6.png" alt="" />
-            <figcaption>stan john</figcaption>
+          <figure data-value="ML Lead">
+            <img src="images/drock.jpg" alt="" height="300px"/>
+            <figcaption>Divyansh Kumar</figcaption>
           </figure>
         </div>
       </main>

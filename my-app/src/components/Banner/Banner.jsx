@@ -10,7 +10,7 @@ const Banner = () =>{
              </div>
              <div className={styles.floaters}>
                 <div className={styles.leftf}>
-                <img src="images/blue.svg" className={styles.redball}></img>
+                <img src="images/blue.svg" className={styles.blueball}></img>
                 <img src="images/red.svg" className={styles.redball}></img>
                 </div>
                 <div className={styles.rightf}>
