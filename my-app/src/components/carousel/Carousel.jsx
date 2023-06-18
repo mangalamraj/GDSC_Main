@@ -50,11 +50,11 @@ const Carousel = () => {
 
           
           <div className="description_hd">
-            <h1>OCEAN VILLA.</h1>
+            <h1>Tech Con</h1>
             </div>
             <div className="description_para">
             <p>
-            Hub embraces holistic development and support for employees the aim of being a first-choice employer our sectors.
+            Get ready to take your web development skills to the next level! Join us for an exciting workshop hosted by GDSC IIITN and gain hands-on experience
             </p>
             </div>
             </div>
@@ -68,11 +68,11 @@ const Carousel = () => {
 
           
           <div className="description_hd">
-            <h1>KITCHEN VII</h1>
+            <h1>HACK  DROID</h1>
             </div>
             <div className="description_para">
             <p>
-            Hub embraces holistic development and support for employees the aim of being a first-choice employer our sectors.
+            GDSC-IIIT Nagpur brings you Hack-Droid, an Android based hackathon where you get a chance to show off your knowledge by making a project on one of the two problem statements. The problem statements are very engaging and beginner friendl
             </p>
             </div>
             </div>

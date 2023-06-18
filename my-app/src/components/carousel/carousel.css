@@ -35,20 +35,24 @@
 
 
 .main_imgsld{
-    background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/asset-23.jpeg);
+    background-image: url(https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/WhatsApp%2520Image%25202023-04-03%2520at%252012.04.52%2520AM%2520%25281%2529.jpeg);
     background-position: center center;
-    background-size: cover; 
+    
+    
     height:750px;
+    
+  
 }
 .main_imgsld2{
-    background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/04/slider2-2.jpeg);
+    background-image: url(https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/WhatsApp%2520Image%25202022-09-27%2520at%252010.27.16%2520PM%2520%25281%2529.jpeg);
     background-position: center center;
     background-size: cover; 
     height:750px;
+    background-size: 100% 100%;
 }
 
 .description_hd{
-    color: #ffffff;
+    color: #FFF3E2;
     font-size: 4rem;
     text-transform: uppercase;
     white-space: normal;
@@ -67,7 +71,7 @@
     font-size: 14px;
     line-height: 1.5em;
     white-space: normal;
-    color: #FFFFFFA6;
+    color: #FFF3E2;
     margin-bottom: 2em;
     text-transform: uppercase;
     letter-spacing: 0.04rem;
