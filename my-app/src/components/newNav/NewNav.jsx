@@ -8,7 +8,9 @@ const NewNav = () => {
     <header class="header">
     <div className="nav_main">
     <div className="navhead">
-    <a href="" class="logo">GDSC IIITN</a>
+    <a href="" class="logo">
+    <img src="images/Logo/color/left/name.svg"></img>
+    </a>
     </div>
     <div className="nav_subhead">
     <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -17,11 +19,11 @@ const NewNav = () => {
    
     <ul class="menu">
     <li >
-    <Link  to='/' className='nav-links'>HOME</Link>
-    <Link to='/' className='nav-links'>THE STUDIO</Link>
-    <Link to='/' className='nav-links'>OUR SERVICES</Link>
-    <Link to='/' className='nav-links'>PROJECTS</Link>
-    <Link to='/' className='nav-links'>CONTACT</Link>
+    <Link  to='/' className='nav-links'>EVENTS</Link>
+    <Link to='/' className='nav-links'>OUR TEAM</Link>
+    <Link to='/' className='nav-links'>CONTACT US</Link>
+    
+    
     </li>
      
       <button className='btn'><i class="fas fa-light fa-magnifying-glass"></i></button>
