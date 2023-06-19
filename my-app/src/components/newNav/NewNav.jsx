@@ -21,7 +21,7 @@ const NewNav = () => {
     <li >
     <Link  to='events' className='nav-links' spy={true} smooth={true} offset={40} duration={500} >EVENTS</Link>
     <Link to='crew' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>OUR TEAM</Link>
-    <Link to='footer' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>CONTACT US</Link>
+    <Link to='hello' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>CONTACT US</Link>
     <Link to='footer' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>CREDITS</Link>
     
     </li>
