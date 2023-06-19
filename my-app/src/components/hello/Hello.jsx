@@ -12,7 +12,7 @@ const Hello = () => {
   }
 
   return (
-    <div className={styles.contact_sec} >
+    <div className={styles.contact_sec} id="hello" >
 <div className="background_video" >
         <div className="video_overlay"></div>
         <video
