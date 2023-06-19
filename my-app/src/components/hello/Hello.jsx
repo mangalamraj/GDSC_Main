@@ -3,6 +3,7 @@ import styles from  "./hello.module.css"
 
 
 import { useState } from 'react';
+import ContactPage from '../contactPage/ContactPage';
 const Hello = () => {
   const[open, setOpen]=useState(false);
 
@@ -37,7 +38,7 @@ const Hello = () => {
    
     
         <button onClick={() => openDialog()} className={styles.cont_btn}></button>
-
+        <ContactPage open={open} setOpen={setOpen}/>
    
             </div>
       </div>
