@@ -3,7 +3,7 @@ import styles from "./events.module.css"
 
 const Events = () =>{
     return(
-        <div className={styles.eventsParents}>
+        <div className={styles.eventsParents} id="events">
             <div className={styles.mango}>
             <div className={styles.head}>Recent Events</div>
             <div className={styles.events}>

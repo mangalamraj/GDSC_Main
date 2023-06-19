@@ -1,6 +1,6 @@
 import React from 'react'
 import './newNav.css'
-import { Link } from 'react-router-dom';
+import {Link} from 'react-scroll';
 
 const NewNav = () => {
   return (
@@ -19,10 +19,10 @@ const NewNav = () => {
    
     <ul class="menu">
     <li >
-    <Link  to='/' className='nav-links'>EVENTS</Link>
-    <Link to='/' className='nav-links'>OUR TEAM</Link>
-    <Link to='/' className='nav-links'>CONTACT US</Link>
-    
+    <Link  to='events' className='nav-links' spy={true} smooth={true} offset={40} duration={500} >EVENTS</Link>
+    <Link to='crew' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>OUR TEAM</Link>
+    <Link to='footer' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>CONTACT US</Link>
+    <Link to='footer' className='nav-links'  spy={true} smooth={true} offset={40} duration={500}>CREDITS</Link>
     
     </li>
      

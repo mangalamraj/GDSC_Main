@@ -7,7 +7,7 @@ import { faFacebookF, faTwitter, faLinkedinIn, faGooglePlusG } from '@fortawesom
 const Footer = () => {
   return (
     
-        <div className="foot" style={{marginTop:"100px"}}>
+        <div className="foot" id='footer' style={{marginTop:"100px"}}>
         <div align="right" className="logo">
     <img src="images/Logo/color/left/name.svg"></img>
  </div>

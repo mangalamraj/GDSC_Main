@@ -66,7 +66,7 @@ color:rgb(77, 73, 73);
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-    margin-right: 15em;
+    
   }
   
   /* menu icon */

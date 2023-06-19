@@ -2,7 +2,7 @@ import styles from "./Crew.module.scss";
 
 const Crew = () => {
   return (
-    <div  className={styles.CrewKabaap}>
+    <div  className={styles.CrewKabaap} id="crew">
 
     <div className={styles.body}>
       <header>
