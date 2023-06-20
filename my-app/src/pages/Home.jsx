@@ -8,6 +8,7 @@ import Hello from "../components/hello/Hello";
 import Banner from "../components/Banner/Banner";
 import NewNav from "../components/newNav/NewNav";
 import Carousel from "../components/carousel/Carousel";
+import Team from "../components/Team/Team";
 
 
 const Home = () =>{
@@ -18,7 +19,7 @@ const Home = () =>{
     <WhatWeDo/>
             <Events/>
             <Crew/>
-            
+         
             <Hello/>
             <Banner/>
             <Footer/>

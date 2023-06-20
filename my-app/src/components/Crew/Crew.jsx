@@ -54,10 +54,16 @@ const Crew = () => {
           </figure>
         </div>
 
-        <div className={styles.profile}>
+        <div className={styles.profile} id="profile">
           <figure data-value="ML Lead">
             <img src="images/drock.jpg" alt="" height="300px"/>
             <figcaption>Divyansh Kumar</figcaption>
+          </figure>
+        </div>
+        <div className={styles.profile} id="profile2">
+          <figure data-value="Content Lead">
+            <img src="images/chetan.jpeg" alt="" height="300px"/>
+            <figcaption>Chetan Amritanshu</figcaption>
           </figure>
         </div>
       </main>
