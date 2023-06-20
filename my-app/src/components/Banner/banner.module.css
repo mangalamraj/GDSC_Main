@@ -74,3 +74,27 @@
     font-weight: 200;
     font-family: "Poppins", Sans-serif;
 }
+
+@media screen and (max-width: 768px){
+    .parentbanner{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    .floaters{
+        width: 80%;
+        gap: 8rem;
+    }
+    .rightf{
+        gap: 1em;
+
+        width: 80%;
+        margin-left: 80px;
+    }
+    .leftf{
+        gap: 2em;
+        margin-left: -100px;
+        width: 80%;
+    }
+}

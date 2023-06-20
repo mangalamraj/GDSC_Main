@@ -12,6 +12,7 @@
     margin-top: 0rem;
 }   
 .events{
+    
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -23,7 +24,8 @@
 
 }
 .mango{
-    width: 80%;
+    width: 90%;
+
 }
 .head{
     color: #202124;
@@ -41,5 +43,14 @@
     }
     .eventsParents{
         background-image: none;
+    }
+    .head{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        word-spacing: -5px;
+        font-size: 40px;
+        margin: 0 auto;
+        margin-left:40px ;
     }
 }
