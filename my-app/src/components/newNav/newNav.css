@@ -13,6 +13,7 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.09rem;
     z-index: 999;
+    overflow: hidden;
   }
 
   .navhead img{
@@ -202,5 +203,8 @@ color:rgb(77, 73, 73);
       }
 
 
+
+}
+@media screen and (max-width:800px){
 
 }
