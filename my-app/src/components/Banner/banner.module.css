@@ -90,11 +90,11 @@
         gap: 1em;
 
         width: 80%;
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .leftf{
         gap: 2em;
-        margin-left: -100px;
+        margin-left: -80px;
         width: 80%;
     }
 }
