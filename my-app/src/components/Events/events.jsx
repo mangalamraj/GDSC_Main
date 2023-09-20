@@ -24,41 +24,9 @@ const Events = () => {
 
                     </div>
 
-                    <div className={styles.events}>
 
-                        <Eventbox image="images/cr.jpg" heading="Code Rush 2023" para="We are excited to announce CodeRush 2023 👨🏻‍💻, a programming contest hosted by GDSC, IIIT Nagpur in collaboration with AlgoUniversity.
 
-This is a fantastic opportunity to hone your programming skills and win cash prizes of 7500 INR and the total prize pool is 30,000 INR exclusive to IIIT Nagpur 🤯 students.
-                        "></Eventbox>
-                        <Eventbox image="images/cloudjam.png" heading="GCCP Session" para="Hands-on with Google cloud Platform ,AMA session and Project Development Phase Disscussion.
-                        "></Eventbox>
-                        <Eventbox image="images/6d30c.webp" heading="6 Companies 30 Days Challenge" para="A Challenge to make sure you start with your goals today , don’t procrastinate and don’t let your college decide your future!
-Those who complete the challenge also get referrals and surprise prizes at the end of the challenge along with a personalized roadmap of what comes next in your preparation for your dream company.
-                        "></Eventbox>
-                    </div>
-
-                    <div className={styles.events}>
-
-                        <Eventbox image="images/ss.webp" heading="Solution Challenge 2022" para="In this we will be telling about GDSC in brief , their perks and opportunities associated with GDSC. Also will elaborate about Solution Challenge 2023,how to take part ,what are the requirements etc.
-                        "></Eventbox>
-                        <Eventbox image="images/df.webp" heading="Devfest 2022" para="Hey Developers! 👨🏻‍💻
-
-Wanna explore the latest technologies? 🚀
-
-Learn something new? 📋
-
-Participate in some hackathons? 🎖
-
-Networking with other developers? 🏂
-
-<> Google Developers Group - Nagpur presents you
-
-DevFest Nagpur 2022 🪂
-
-                        "></Eventbox>
-                        <Eventbox image="images/mls.webp" heading="ML Study Jams" para="Experience the potential of machine learning through our ML Study Jams! Our comprehensive sessions cover all the fundamentals, from data preparation to model deployment, providing a solid foundation in this exciting field. By participating, you'll uncover how ML can enable you to tackle complex problems, streamline tasks, and promote innovation in your industry.
-                        "></Eventbox>
-                    </div>
+                    
                 </div>
 
             </div>
