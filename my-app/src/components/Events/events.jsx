@@ -1,40 +1,122 @@
-import Eventbox from "./eventbox";
-import styles from "./events.module.css"
+"use client";
+import ScheduleIcon from '@mui/icons-material/Schedule';
+import RunningWithErrorsIcon from '@mui/icons-material/RunningWithErrors';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import {useEffect} from 'react';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import SwiperCore from 'swiper/core';
+import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
+// Import Swiper styles
+import "swiper/css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import { useScroll,motion,useTransform } from "framer-motion";
+import './events.css'
+import AOS from 'aos';
+import RunningWithErrors from '@mui/icons-material/RunningWithErrors';
+const Brands = () => {
+  useEffect(()=>{
+    AOS.init(
+        {
+            duration:1100,
+        }
+    );
+},[])
 
-const Events = () => {
-    return (
-        <div style={{
-            alignItems: "center",
-            textAlign: "center",
 
-        }}>
+   
+    const isMobile = useMediaQuery("(max-width: 767px)");
+    const isTablet = useMediaQuery("(max-width: 1024px)");
 
-
-            <div className={styles.eventsParents} id="events">
-                <div className={styles.mango}>
-                    <div className={styles.head}>Recent Events</div>
-
-                    <div className={styles.events}>
-                        <Eventbox image="https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-dsc/event_wrapup/WhatsApp%2520Image%25202023-04-03%2520at%252012.10.37%2520AM.jpeg" heading="TechCon" para="Get ready to take your web development skills to the next level! Join us for an exciting workshop hosted by GDSC IIITN and gain hands-on experience in creating dynamic and responsive websites. Don't miss out on this opportunity to learn from experts and connect with fellow web enthusiasts. See you there!"></Eventbox>
-                        <Eventbox image="images/hack.svg" heading="InfoSession 2.0" para="INFO SESSION 1.0
-                        This is an event introducing GDSC IIITN for the batch 2022. We will introduce you to domain leads, co-leads and members who will be guiding you through the journey with the club. It will also include the insights about the various Google campaigns like Compose Camp, Google Cloud, Android"></Eventbox>
-                        <Eventbox image="images/hack2.svg" heading="Hack-Droid" para="HACK-DROID
-                        GDSC-IIIT Nagpur brings you Hack-Droid, an Android based hackathon where you get a chance to show off your knowledge by making a project on one of the two problem statements. The problem statements are very engaging and beginner friendly.
-                        "></Eventbox>
-
-                    </div>
-
-
-
-                    
-                </div>
-
-            </div>
-            <div style={{ alignItems: "center", textAlign: "center", marginTop: "-35px", display: "flex", justifyContent: "center", }}>
-                <a href="https://gdsc.community.dev/indian-institute-of-information-technology-nagpur/">View More</a>
-            </div>
-
+    
+   
+  return (
+    <div className="fd_section">
+    <div className="heading_main1">
+       <h1>
+        Events</h1>
+       
+ 
         </div>
-    )
+       
+        <div className="main_pagination" >
+   
+    <Swiper style={{ width: '100%'}}
+    className="custom_swiper"
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={isMobile ? 15 : 30}
+      slidesPerView={isMobile ? 1.25 : 2.15}
+        speed={1500}
+        navigation={!isMobile}
+      >
+
+
+                         
+ 
+             <SwiperSlide ><div className="imageparent1"><motion.div  className="sliderimages" >
+             <div class="box">
+    <div class="imgBx">
+      <img src="https://media.istockphoto.com/id/974238866/photo/audience-listens-to-the-lecturer-at-the-conference.jpg?s=612x612&w=0&k=20&c=p_BQCJWRQQtZYnQlOtZMzTjeB_csic8OofTCAKLwT0M=" loading="lazy"/>
+    </div>
+    <div class="content">
+      <h2>Dev Fest</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        <p><span><ScheduleIcon className="icn1"/></span>Schedule - 30th Dec 10.00am</p>
+        <p className="last_p"><span><PriorityHighIcon className="icn2"/></span>Register By - 22nd Dec</p>
+      <a href="#">Know More→</a>
+    </div>
+  </div>
+
+        </motion.div></div></SwiperSlide>
+        
+        
+        <SwiperSlide><div className="imageparent1"><motion.div  >
+
+        <div class="box">
+    <div class="imgBx">
+      <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_493958679_970647970450057_65459.jpg" loading="lazy"/>
+    </div>
+    <div class="content">
+      <h2>Coda-thon</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        <p><span><ScheduleIcon className="icn1"/></span>Schedule - 30th Dec 10.00am</p>
+        <p className="last_p"><span><PriorityHighIcon className="icn2"/></span>Register By - 22nd Dec</p>
+      <a href="#">Know More→</a>
+    </div>
+  </div>
+        </motion.div></div></SwiperSlide>
+
+        <SwiperSlide ><div className="imageparent1"><motion.div  className="sliderimages" >
+
+        <div class="box">
+    <div class="imgBx">
+      <img src="https://cdn.autonomous.ai/static/upload/images/common/upload/20211222/5-Types-of-Office-Meeting-Room-Design-for-Different-Events_32b9b97a311.jpg" loading="lazy"/>
+    </div>
+    <div class="content">
+      <h2>Techa-thon</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+        <p><span><ScheduleIcon className="icn1"/></span>Schedule - 30th Dec 10.00am</p>
+        <p className="last_p"><span><PriorityHighIcon className="icn2"/></span>Register By - 22nd Dec</p>
+      <a href="#">Know More→</a>
+    </div>
+  </div>
+
+        </motion.div></div></SwiperSlide>
+
+      </Swiper>
+
+    </div>
+
+
+
+      </div>
+  )
 }
-export default Events;
+
+export default Brands
