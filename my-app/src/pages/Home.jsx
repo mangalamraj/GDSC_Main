@@ -9,6 +9,7 @@ import Banner from "../components/Banner/Banner";
 import NewNav from "../components/newNav/NewNav";
 import Carousel from "../components/carousel/Carousel";
 import Team from "../components/Team/Team";
+import Blogs from "../components/blogs/Blogs";
 
 
 
@@ -22,6 +23,7 @@ const Home = () =>{
      <Events/>
          
             <Hello/>
+            <Blogs/>
             <Banner/>
             <Footer/>
         </div>
