@@ -17,7 +17,7 @@ const Blogs = () => {
       </div>
       <div id="s_two" class="slide two">
       <div className="sub_slide">
-      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! Mangalam Raj ?" desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
+      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! IIITN ?" desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
       </div>
       </div>
       <div id="s_three" class="slide three">
@@ -27,7 +27,7 @@ const Blogs = () => {
       </div>
       <div id="s_four"  class="slide four">
       <div className="sub_slide">
-      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! Mangalam Raj ?" desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
+      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! IIITN ?" desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
       </div>
       </div>
       <div id="s_five" class="slide five">
@@ -37,7 +37,7 @@ const Blogs = () => {
       </div>
       <div id="s_six" class="slide six">
       <div className="sub_slide">
-      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! Mangalam Raj ?"  desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
+      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! IIITN ?"  desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
       </div>
       </div>
       <div id="s_seven" class="slide seven">
@@ -47,7 +47,7 @@ const Blogs = () => {
       </div>
       <div id="s_eight" class="slide eight">
       <div className="sub_slide">
-      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! Mangalam Raj ?"  desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
+      <CardItems img="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" time="4 months" title="Future of Web Dev ! IIITN ?"  desc="        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."/>
       </div>
       </div>
       <div id="s_nine" class="slide nine">
