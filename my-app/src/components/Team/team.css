@@ -47,6 +47,7 @@
 .personal_image img{
     height:450px;
     width: 100%;
+    background-position: center;
    
     
 }
@@ -66,7 +67,7 @@
 }
 
 .main_card2{
-    padding: 1.2% 1.2% 0 1.2%;
+    padding: 0% 1.2% 0 1.2%;
     width:33.33%;
     justify-content: center;
     align-items: center;
@@ -98,11 +99,11 @@ small{
     line-height: 22px;
 }
 .card_para2 p{
-    margin-top: 50px;
+
     margin-bottom: 0.5em;
-    vertical-align: middle;
+    font-weight: 600;
     letter-spacing: 0.02rem;
-    font-size: 14px;
+    font-size: 15px;
  
 }
 .link_team{

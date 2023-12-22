@@ -14,34 +14,32 @@ const Team = () => {
     <div className="team_main_section">
         <div className="main_card">
          <div className="personal_image">
-         <img src="	https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/3-Hover.jpg" alt=""/>
+         <img src="images/gdsclead.jpg" alt=""/>
          </div>
          <div className="card_name">
             <h3>Khushal Kumawat <small>/ GDSC - Lead</small></h3>
          </div>
          <div className="card_para">
-          <p>Through a unique combination of engineering, construction and design disciplines.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adi elit. Iusto, optio, dolorum provident </p>
          </div>
         </div>
         <div className="main_card">
          <div className="personal_image">
-         <img src="	https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Rectangle.jpg" alt=""/>
+         <img src="images/gdsc_colead.jpeg" alt=""/>
          </div>
          <div className="card_name">
             <h3>Gaurav Bajpai <small>/ GDSC - Colead</small></h3>
          </div>
          <div className="card_para">
-          <p>Urban design draws together the many strands of place-making, environmental stewardship.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
          </div>
         </div>
         <div className="main_card2">
         <div className="card_para2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicingsed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+          <p>" Engage with our diverse domain-specific teams, each equipped with specialized capabilities and expertise, serving as invaluable sources of guidance to provide advanced technical insights.Collaborate with these domain experts, unlocking a wealth of technical acumen to enrich your project's depth and precision. "</p>
        
          </div>
-         <div className="t_det"><button className="team_btn"><Link className="link_team" to='/team'>VIEW ALL TEAM MEMBERS  →</Link> </button> </div>
+         <div className="t_det"><button className="team_btn"><Link className="link_team" to='team'>VIEW ALL DOMAIN TEAMS →</Link> </button> </div>
          
          <div className="card_name">
            

@@ -5,7 +5,7 @@ body{
 }
 
 .sidebar{
-
+position: fixed;
    min-width: 200px;
 top:0;
 bottom: 0;
@@ -49,6 +49,7 @@ left: 0;
     display: flex;
 }
 .dom-details{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 200px;
 
 }
