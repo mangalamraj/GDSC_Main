@@ -16,6 +16,7 @@ const Sidebar = () => {
    <a href="">DEVTALKS</a>
 </div>
 <div className="dom-details"><TeamCards/></div>
+
 </div>
 
   )

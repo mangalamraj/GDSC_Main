@@ -26,8 +26,8 @@
 }
 .hr1_team{
     
-    width: 97%;
-    margin: 0.6em 3% 0.6em ;
+    width: 93%;
+    margin: 0.6em 3% 0.6em 3% ;
     
   
     height: 1px;
@@ -46,7 +46,7 @@
 }
 .personal_image img{
     height:450px;
-    width: 90%;
+    width: 100%;
    
     
 }
@@ -113,29 +113,16 @@ small{
     font-weight: 600;
     letter-spacing: -1px;
     padding-left: 3%;
+  
 }
 .opts{
     padding-left: 3%;
 }
-.inc{
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #9A9A9A;
-    padding-bottom: 15px;
-    border-bottom: 1px solid grey;
-    width:700px;
-}
+
 .main_inc{
     display:flex;
 }
-.sub_incs{
-    border-bottom: 1px solid grey;
-    width:700px;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: -0.3px;
-}
+
 
 .dt{
    
@@ -184,13 +171,31 @@ margin: 10px 3% 0 0;
 
 
 @media only screen and (max-width:1024px) {
-.team_section{
+.team_section1{
     padding-left: 2%;
     padding-right: 2%;
 }
 }
+@media only screen and (min-width:768px) {
+    .sub_incs{
+        border-bottom: 1px solid grey;
+        width:700px;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: -0.3px;
+    }
+    .inc{
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #9A9A9A;
+        padding-bottom: 15px;
+        border-bottom: 1px solid grey;
+        width:700px;
+    }
+}
 @media only screen and (max-width:767px) {
-.team_main_section{
+.team_main_section1{
     display: flex;
     flex-direction: column;
 }
@@ -204,5 +209,24 @@ margin: 10px 3% 0 0;
 }
 .main_card2{
     width:100%;
+}
+.opts{
+    padding-right: 3%;
+}
+.sub_incs{
+    border-bottom: 1px solid grey;
+
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+.inc{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #9A9A9A;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    
 }
 }

@@ -9,8 +9,8 @@ const Steps = () => {
 		
 		</div>
 
-		<div class="status-timeline-content">
-			<h2>HTML, CSS[FLEXBOX,GRID,CHEATS]</h2>
+		<div className="status-timeline-content">
+			<h2>HTML, CSS : FLEXBOX,GRID,CHEATS</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p> 
 			<ul>
 				<li>Learn basics</li>

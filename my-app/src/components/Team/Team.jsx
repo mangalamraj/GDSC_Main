@@ -39,7 +39,7 @@ const Team = () => {
           <p>" Engage with our diverse domain-specific teams, each equipped with specialized capabilities and expertise, serving as invaluable sources of guidance to provide advanced technical insights.Collaborate with these domain experts, unlocking a wealth of technical acumen to enrich your project's depth and precision. "</p>
        
          </div>
-         <div className="t_det"><button className="team_btn"><Link className="link_team" to='team'>VIEW ALL DOMAIN TEAMS →</Link> </button> </div>
+         <div className="t_det"><button className="team_btn"><Link to='/team' className="link_team" >VIEW ALL DOMAIN TEAMS →</Link> </button> </div>
          
          <div className="card_name">
            
