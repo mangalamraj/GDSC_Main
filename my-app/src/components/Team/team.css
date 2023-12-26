@@ -46,11 +46,10 @@
 }
 .personal_image img{
     height:450px;
-    width: 100%;
-    background-position: center;
-   
-    
+    width: 90%;
+    background-position: center;  
 }
+
 .t_det{
  padding-top: 10px;
 }
@@ -132,6 +131,13 @@ small{
 }
 .main_card2{
     width:100%;
+}
+.personal_image img{
+
+    width: 100%;
+   
+   
+    
 }
 }
 

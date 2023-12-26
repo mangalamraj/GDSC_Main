@@ -46,7 +46,7 @@
 }
 .personal_image img{
     height:450px;
-    width: 100%;
+    width: 90%;
    
     
 }
@@ -228,5 +228,9 @@ margin: 10px 3% 0 0;
     padding-bottom: 15px;
     border-bottom: 1px solid grey;
     
+}
+.personal_image img{
+    height:450px;
+    width: 100%;   
 }
 }
