@@ -57,11 +57,11 @@ const Brands = () => {
                          
  
              <SwiperSlide ><div className="imageparent1"><motion.div  className="sliderimages" >
-             <div class="box">
-    <div class="imgBx">
+             <div className="box">
+    <div className="imgBx">
       <img src="https://media.istockphoto.com/id/974238866/photo/audience-listens-to-the-lecturer-at-the-conference.jpg?s=612x612&w=0&k=20&c=p_BQCJWRQQtZYnQlOtZMzTjeB_csic8OofTCAKLwT0M=" loading="lazy"/>
     </div>
-    <div class="content">
+    <div className="content">
       <h2>Dev Fest</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
@@ -76,11 +76,11 @@ const Brands = () => {
         
         <SwiperSlide><div className="imageparent1"><motion.div  >
 
-        <div class="box">
-    <div class="imgBx">
+        <div className="box">
+    <div className="imgBx">
       <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_493958679_970647970450057_65459.jpg" loading="lazy"/>
     </div>
-    <div class="content">
+    <div className="content">
       <h2>Coda-thon</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
@@ -93,11 +93,11 @@ const Brands = () => {
 
         <SwiperSlide ><div className="imageparent1"><motion.div  className="sliderimages" >
 
-        <div class="box">
-    <div class="imgBx">
+        <div className="box">
+    <div className="imgBx">
       <img src="https://cdn.autonomous.ai/static/upload/images/common/upload/20211222/5-Types-of-Office-Meeting-Room-Design-for-Different-Events_32b9b97a311.jpg" loading="lazy"/>
     </div>
-    <div class="content">
+    <div className="content">
       <h2>Techa-thon</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing </p>
